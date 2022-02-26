@@ -27,4 +27,10 @@ delete bottle.isCleaned;
 // seal method
 Object.seal(bottle);
 bottle.color = 'red';
+bottle.price = 100;
+console.log(bottle);
+
+// freeze method
+Object.freeze(bottle);
+bottle.price = 100;
 console.log(bottle);
